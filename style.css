@@ -1,0 +1,72 @@
+body,*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Gestion du header et ses enfants */
+header{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    border: 1px solid black;
+    width: 300vh;
+    object-fit: cover;
+    background-color: bisque;
+    padding-bottom: 20px;
+} 
+.div1{
+    display: flex;
+}
+button{
+    background-color: bisque;
+    border: transparent;
+}
+header .div2{
+    margin-left: 25%;
+    transform: rotateX(-25%);
+}
+#search{
+   width: 400px;
+   height: 30px;
+   font-size: x-large;
+   margin-top: 13px;
+}
+.div3{
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+
+/* gestion des liens de navigations */
+nav{
+    position: fixed;
+    height: 100vh;
+    object-fit: cover;
+    background-color: powderblue;
+    z-index: 0;
+    margin-top: 60px;
+}
+nav ul{
+    text-decoration: none;
+    margin-top: 50px;
+}
+nav ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;  
+}
+nav  a{
+    list-style: none;
+}
+ul ,th{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    box-shadow: 20px;
+}
+ul .color-barre{
+    color: darkgrey;
+}
+/* gestion des icons */
+i{
+    padding-left: 20px;
+    padding-right: 10px;
+}
